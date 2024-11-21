@@ -27,21 +27,20 @@ In this lab you will:
             0.0, 0.0, 1.0]
   ```
 3. Make the data available to the shader following the same pattern as in exercise 1.
-4. Make the vertex shader pass the color data on to the fragment shader
-  1. declare an output in the vertex shader like this
-  ```glsl
-  out vec3 color;
-  ```
-  1. Assign `vertexColor` to the `color` output variable in the vertex shader main function.
-  1. declare a corresponding input in the fragment shader
-  ```glsl
-  in vec3 color;
-  ```
-  1. Update the fragment shader to use the `color` input when setting the `fragColor` value.
-  ```glsl
-  fragColor = vec4(color, 1.0);
-  ```
-5. Render
+4. Make the vertex shader pass the color data on to the fragment shader:
+    1. declare an output in the vertex shader like this
+    ```glsl
+    out vec3 color;
+    ```
+    1. Assign `vertexColor` to the `color` output variable in the vertex shader main function.
+    1. declare a corresponding input in the fragment shader
+    ```glsl
+    in vec3 color;
+    ```
+    1. Update the fragment shader to use the `color` input when setting the `fragColor` value.
+    ```glsl
+    fragColor = vec4(color, 1.0);
+    ```
 
 ## 4. UNIFORM VECTOR. Try yourself - Provide additional uniform data
 1. Continue from the previous exercise
