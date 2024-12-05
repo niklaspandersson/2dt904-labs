@@ -1,7 +1,7 @@
 # Lab 4 - Hidden surfaces and fragment shading
 In this lab you will:
 1. See the effect of hidden surface removal
-2. Explore various ways in which we can use maths
+2. Explore various ways in which we can use maths to draw in the fragment shader
 
 ## 1. HIDDEN SURFACE REMOVAL - Code along
 1. Run `1-hidden-surfaces.py` to see the problem
