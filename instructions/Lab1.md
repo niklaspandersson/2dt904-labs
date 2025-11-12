@@ -61,3 +61,4 @@ These are some examples of things you might want continue experimenting with:
 - Change the values that are assigned to `gl_Position` and `fragColor` in the respective shader to get an idea of what they do and the valid ranges.
 - Investigate how one can use `uniforms` to pass in constant data to the shader at runtime instead of hardcoding them in the shader source (page 65-67 in the book).
   - Once you can pass uniforms to your shaders, you can move the draw call (`glDrawArrays`) to a loop (as in the book) and update the value of the uniform in each iteration to create a simple animation.
+- Move on an implement support for keyboard input (section 2.5 in the book) so that you can add simple interactivity. Like toggling animation, changing speed of animation and/or moving things around.
