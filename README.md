@@ -15,3 +15,8 @@ I will publish the instructions and boilerplate code for each lab in this respos
 - Setting up the environment
 - Displaying a window with pygame
 - Minimal rendering with OpenGL
+
+### Lab 2
+
+- Provide vertex data describing an object to the graphics pipeline using `vertex attributes`
+- Provide data that is shared for an entire object to the pipeline using `uniforms`
