@@ -20,3 +20,11 @@ I will publish the instructions and boilerplate code for each lab in this respos
 
 - Provide vertex data describing an object to the graphics pipeline using `vertex attributes`
 - Provide data that is shared for an entire object to the pipeline using `uniforms`
+
+## Python dev. tips
+
+There is a pip-package that automatically restart the application when file-changes are detected. It's called `py-mon`, and you can read about it here: https://pypi.org/project/py-mon/
+
+1. With your python environment active, install it using `pip install py-mon` (or `python3 -m pip install py-mon` depending on your environment).
+2. When developing, run your application from the terminal using `pymon [filename]` instead of using python directly.
+3. Enjoy not having to manually run the application after each code update.
