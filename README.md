@@ -21,6 +21,12 @@ I will publish the instructions and boilerplate code for each lab in this respos
 - Provide vertex data describing an object to the graphics pipeline using `vertex attributes`
 - Provide data that is shared for an entire object to the pipeline using `uniforms`
 
+### Lab 3
+
+- Provide various transformation matrices to the vertex shader.
+- Perform time-based animations
+- Draw multiple instances of a single object
+
 ## Python dev. tips
 
 There is a pip-package that automatically restart the application when file-changes are detected. It's called `py-mon`, and you can read about it here: https://pypi.org/project/py-mon/
