@@ -5,8 +5,8 @@ from glslprogram import Program
 from meshes import setupCube
 from math import pi
 
-vsCode = readFile('./shaders/lab4.vert')
-fsCode = readFile('./shaders/lab4.frag')
+vsCode = readFile('./shaders/lab4-1.vert')
+fsCode = readFile('./shaders/lab4-1.frag')
 
 
 def init():
