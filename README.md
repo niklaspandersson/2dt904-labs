@@ -27,6 +27,18 @@ I will publish the instructions and boilerplate code for each lab in this respos
 - Perform time-based animations
 - Draw multiple instances of a single object
 
+### Lab 4
+
+- Use of back-face culling and depth testing for hidden surface removal.
+- Using uv coordinates to create a coordinate system in the plane of a surface.
+- Using uv coordinates to procedurally "draw" on the surface of objects in the fragment shader.
+
+### Lab 5
+
+- Implementing the phong illumination model i GLSL
+- Diffuse lighting
+- Specular lighting
+
 ## Python dev. tips
 
 There is a pip-package that automatically restart the application when file-changes are detected. It's called `py-mon`, and you can read about it here: https://pypi.org/project/py-mon/
