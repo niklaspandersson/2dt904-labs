@@ -57,5 +57,9 @@ class Program(object):
         ref = glGetUniformLocation(self.programId, name)
         glUniformMatrix4fv(ref, 1, GL_TRUE, value)
 
+    def setUniformInt(self, name, value):
+        ref = glGetUniformLocation(self.programId, name)
+        glUniform1i(ref, value)
+
     def use(self):
         glUseProgram(self.programId)

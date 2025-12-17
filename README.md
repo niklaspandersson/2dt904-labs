@@ -39,6 +39,12 @@ I will publish the instructions and boilerplate code for each lab in this respos
 - Diffuse lighting
 - Specular lighting
 
+### Lab 6
+
+- Loading images
+- basic texturing and multitexturing
+- filtering, wrapping and mipmaps
+
 ## Python dev. tips
 
 There is a pip-package that automatically restart the application when file-changes are detected. It's called `py-mon`, and you can read about it here: https://pypi.org/project/py-mon/
