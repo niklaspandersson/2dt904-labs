@@ -13,24 +13,26 @@ In this lab you will:
 Before the lab starts, please try to find time to:
 
 1. Make sure that you have a version of the lab repo containing the boilerplate for lab 3.
+1. Make sure that you can run the `lab3-start.py` file
+
+## 0. PREPARE - Together
 1. Get familiar with the boilerplate:
    - The `Matrix`-class
      - this contains static methods for generating common transformation matrices
    - The `Program`-class
      - A wrapper for a glsl program, with methods for setting uniform data of various types
-   - the `setupTriangle` function
    - the separate files for the shader-code
-1. Make sure that you can run the `lab3-start.py` file
+   - the `setupTriangle` function
 
 ## 1. TRANSFORMATIONS - Code along
 
 1. Create and pass a model matrix to the vertex shader
+1. Enable color data
 2. Test various model matrices
-3. Setup the projection-view matrix, simulating a camera
 
 ## 2. ANIMATION - Code along
 
-1. Move the rendering to a separate function
+1. Add a clock to keep track of time between frames
 1. Add a call to `glClear` to clear the framebuffer between draws
 1. Update the model matrix on each update
 1. Pass the time directly to the vertex shader for "procedural" animation
@@ -83,6 +85,5 @@ Before the lab starts, please try to find time to:
 - Have the particles shoot out radially
   - In a plane
   - I a sphere
-  - In a half-sphere
 - Have the particles first shoot up, then fall down as if affected by gravity.
 - User your own imagination
